@@ -1,0 +1,29 @@
+PS C:\Users\Blake\OneDrive\Documents\NKU\Spring23\CIT494\Assignment3> node compile.js
+[{"inputs":[{"internalType":"uint256","name":"num","type":"uint256"},
+{"internalType":"uint256","name":"price","type":"uint256"}],"stateMutability":"nonpayable","type":"constructor"},
+{"inputs":[{"internalType":"address","name":"partner","type":"address"}],"name":"acceptSwap","outputs":[],"stateMutability":"nonpayable","type":"function"},
+{"inputs":[{"internalType":"uint256","name":"ticketId","type":"uint256"}],"name":"buyTicket","outputs":[],"stateMutability":"payable","type":"function"},
+{"inputs":[{"internalType":"address","name":"person","type":"address"}],"name":"getTicketOf","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},
+{"inputs":[],"name":"manager","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},
+{"inputs":[{"internalType":"address","name":"partner","type":"address"}],"name":"offerSwap","outputs":[],"stateMutability":"nonpayable","type":"function"},
+{"inputs":[{"internalType":"uint256","name":"ticketId","type":"uint256"}],"name":"returnTicket","outputs":[],"stateMutability":"nonpayable","type":"function"},
+{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"swapOffers","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},
+{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"ticketOwnership","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},
+{"inputs":[{"internalType":"uint256","name":"","type":"uint256"}],"name":"tickets","outputs":[{"internalType":"address","name":"manager","type":"address"},
+{"internalType":"bool","name":"isSold","type":"bool"}],"stateMutability":"view","type":"function"}]
+
+PS C:\Users\Blake\OneDrive\Documents\NKU\Spring23\CIT494\Assignment3> node deploy.js 
+[{"inputs":[{"internalType":"uint256","name":"num","type":"uint256"},
+{"internalType":"uint256","name":"price","type":"uint256"}],"stateMutability":"nonpayable","type":"constructor"},
+{"inputs":[{"internalType":"address","name":"partner","type":"address"}],"name":"acceptSwap","outputs":[],"stateMutability":"nonpayable","type":"function"},
+{"inputs":[{"internalType":"uint256","name":"ticketId","type":"uint256"}],"name":"buyTicket","outputs":[],"stateMutability":"payable","type":"function"},
+{"inputs":[{"internalType":"address","name":"person","type":"address"}],"name":"getTicketOf","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},
+{"inputs":[],"name":"manager","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},
+{"inputs":[{"internalType":"address","name":"partner","type":"address"}],"name":"offerSwap","outputs":[],"stateMutability":"nonpayable","type":"function"},
+{"inputs":[{"internalType":"uint256","name":"ticketId","type":"uint256"}],"name":"returnTicket","outputs":[],"stateMutability":"nonpayable","type":"function"},
+{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"swapOffers","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},
+{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"ticketOwnership","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},
+{"inputs":[{"internalType":"uint256","name":"","type":"uint256"}],"name":"tickets","outputs":[{"internalType":"address","name":"manager","type":"address"},
+{"internalType":"bool","name":"isSold","type":"bool"}],"stateMutability":"view","type":"function"}]
+Attempting to deploy from account 0x0FD8d0E82f782AeA3D2833fd487AAc049085A371
+Contract deployed to 0xA3b3cA83D52786706548190B1513464d57E9ec92
